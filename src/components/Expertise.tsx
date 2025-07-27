@@ -1,22 +1,24 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faBrain } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "Python",
-    "TensorFlow",
-    "LlamaIndex",
-    "MLflow",
-    "FastAPI",
-    "Docker",
-    "Kubernetes",
-    "Python",
     "SQL",
     "PostgreSQL",
-    "Postman"
+    "TensorFlow",
+    "PyTorch",
+    "Keras",
+    "XGBoost",
+    "FastAPI",
+    "Postman",
+    "NLP",
+    "Hugging Face",
+    "OpenCV"
 ];
 
 const labelsSecond = [
@@ -24,21 +26,26 @@ const labelsSecond = [
     "GitHub Actions",
     "Docker",
     "AWS",
-    "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "MLFlow",
+    "Kubernetes",
+    "Kubeflow",
+    "LangChain",
+    "OpenAI",
+    "Vector Databases"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "PySpark",
+    "ElasrticSearch",
+    "BigQuery",
+    "Redshift",
+    "MongoDB",
+    "Airbyte",
+    "AWS Glue",
+    "Kafka",
+    "Airflow",
+    "dbt"
 ];
 
 function Expertise() {
@@ -48,7 +55,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <FontAwesomeIcon icon={faBrain} size="3x"/>
                     <h3>Machine Learning</h3>
                     <p>I develop and fine-tune machine learning models for prediction, anomaly detection, and NLP use cases. I apply statistical techniques and deep learning frameworks to extract insights and drive decisions across multiple domains.</p>
                     <div className="flex-chips">
@@ -62,7 +69,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>GenAI, LLMs & MLOps</h3>
-                    <p>I build and deploy intelligent systems using large language models, retrieval-augmented generation (RAG), and agentic workflows. I orchestrate tools like LangChain and LlamaIndex, containerize apps using Docker, and ensure reliability through CI/CD and model monitoring.</p>
+                    <p>I build and deploy intelligent systems using large language models, RAG, and agentic workflows. I orchestrate tools like LangChain and LlamaIndex, containerize apps using Docker, and ensure reliability through CI/CD and model monitoring.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
