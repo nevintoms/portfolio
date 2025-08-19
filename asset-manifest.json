@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nevin.github.io/static/css/main.bae11da3.css",
+    "main.js": "/nevin.github.io/static/js/main.d75f95ca.js",
+    "static/js/453.b05d8aa5.chunk.js": "/nevin.github.io/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock09.png": "/nevin.github.io/static/media/mock09.f76d079124f804a81dd6.png",
+    "static/media/mock08.png": "/nevin.github.io/static/media/mock08.d30b1dde6323c15d9cf7.png",
+    "static/media/mock10.png": "/nevin.github.io/static/media/mock10.baefb863ff4b840d532b.png",
+    "static/media/mock02.png": "/nevin.github.io/static/media/mock02.80b1c07ee2083d8e48f0.png",
+    "static/media/mock06.png": "/nevin.github.io/static/media/mock06.fed5dbfd1d84c8b7b547.png",
+    "static/media/bg-light.png": "/nevin.github.io/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/nevin.github.io/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock07.png": "/nevin.github.io/static/media/mock07.a1cdb27e7de968bc1529.png",
+    "static/media/mock01.png": "/nevin.github.io/static/media/mock01.8bd0c1d90b494f9386d5.png",
+    "static/media/mock03.png": "/nevin.github.io/static/media/mock03.136a83ab7595b39f3b0e.png",
+    "static/media/nevin.jpg": "/nevin.github.io/static/media/nevin.a37681292e6b11ea7fc6.jpg",
+    "index.html": "/nevin.github.io/index.html",
+    "main.bae11da3.css.map": "/nevin.github.io/static/css/main.bae11da3.css.map",
+    "main.d75f95ca.js.map": "/nevin.github.io/static/js/main.d75f95ca.js.map",
+    "453.b05d8aa5.chunk.js.map": "/nevin.github.io/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae11da3.css",
+    "static/js/main.d75f95ca.js"
+  ]
+}
